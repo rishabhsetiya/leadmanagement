@@ -18,8 +18,8 @@ Build the jar and run it. No additional steps needed.
 
 ### API documentation
 
-######The specifically important features are highlighted with their titles
-####Other curl commands are for general CRUD operations 
+###### The specifically important features are highlighted with their titles
+#### Other curl commands are for general CRUD operations 
 
 #### Create a New Restaurant
 
