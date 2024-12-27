@@ -1,6 +1,6 @@
-#Udaan Assignment - Lead Management System
+# Udaan Assignment - Lead Management System
 
-###Project overview
+### Project overview
 
 This can be used by Key Account Managers to manage restaurant leads.
 We can add/update/delete restaurants, order details, restaurant POC details
@@ -8,15 +8,15 @@ and store/retrieve call history.
 Additionally, we can find well performing and under performing leads.
 We can also find out which leads require a call today.
 
-###System requirements
+### System requirements
 
 Java 17
 
-###Installation and running instructions
+### Installation and running instructions
 
 Build the jar and run it. No additional steps needed.
 
-###API documentation
+### API documentation
 
 ######The specifically important features are highlighted with their titles
 ####Other curl commands are for general CRUD operations 
@@ -59,7 +59,7 @@ curl --request POST \
 curl --request GET \
 --url http://localhost:8080/restaurants
 
-###Well performing and under performing leads
+### Well performing and under performing leads
 
 curl --request GET \
 --url http://localhost:8080/restaurants/well-performing/40/2
@@ -71,12 +71,12 @@ curl --request DELETE \
 --url http://localhost:8080/restaurants/4 \
 --header 'Content-Type: application/json'
 
-###Get last call of restaurant by restaurant id
+### Get last call of restaurant by restaurant id
 
 curl --request GET \
 --url http://localhost:8080/call-details/1
 
-###Get list of restaurants which need a call today
+### Get list of restaurants which need a call today
 curl --request GET \
 --url http://localhost:8080/call-details
 
