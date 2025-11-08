@@ -5,12 +5,11 @@ import com.bitspilani.leadmanager.model.Contact;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.sql.SQLException;
 
 @Service
-public class McpController {
+public class McpTools {
 
     @Autowired
     private ContactDao contactDAO;
