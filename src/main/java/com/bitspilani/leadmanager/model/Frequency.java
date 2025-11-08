@@ -1,4 +1,4 @@
-package com.udaan.leadmanager.model;
+package com.bitspilani.leadmanager.model;
 
 public enum Frequency {
     DAILY,

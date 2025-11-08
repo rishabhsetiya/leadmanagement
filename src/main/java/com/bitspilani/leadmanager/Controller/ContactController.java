@@ -1,7 +1,7 @@
-package com.udaan.leadmanager.Controller;
+package com.bitspilani.leadmanager.Controller;
 
-import com.udaan.leadmanager.Dao.ContactDao;
-import com.udaan.leadmanager.model.Contact;
+import com.bitspilani.leadmanager.Dao.ContactDao;
+import com.bitspilani.leadmanager.model.Contact;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

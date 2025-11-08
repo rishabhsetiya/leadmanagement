@@ -1,11 +1,13 @@
-package com.udaan.leadmanager.model;
+package com.bitspilani.leadmanager.model;
 
-public class RestaurantCall {
+public class RestaurantContactCall {
     Restaurant restaurant;
+    Contact contact;
     Call call;
 
-    public RestaurantCall(Restaurant restaurant, Call call){
+    public RestaurantContactCall(Restaurant restaurant, Contact contact, Call call){
         this.restaurant = restaurant;
+        this.contact = contact;
         this.call=call;
     }
 
@@ -16,7 +18,8 @@ public class RestaurantCall {
                 "\"RestaurantId\": \"" + restaurant.getId() + "\"," +
                 "\"RestaurantName\": \"" + restaurant.getName() + "\"," +
                 "\"lastCallTime\": \"" + call.getCallTimestamp() + "\"," +
-                "\"Frequency\": \"" + restaurant.getFrequency() + "\"" +
+                "\"RepresentativeName\": \"" + contact.getName() + "\"," +
+                "\"RepresentativeRole\": \"" + contact.getRole() + "\"" +
                 "}";
     }
 }

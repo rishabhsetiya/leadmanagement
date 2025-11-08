@@ -1,7 +1,7 @@
-package com.udaan.leadmanager.Controller;
+package com.bitspilani.leadmanager.Controller;
 
-import com.udaan.leadmanager.Dao.RestaurantDao;
-import com.udaan.leadmanager.model.Restaurant;
+import com.bitspilani.leadmanager.Dao.RestaurantDao;
+import com.bitspilani.leadmanager.model.Restaurant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

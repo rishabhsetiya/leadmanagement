@@ -1,8 +1,6 @@
-package com.udaan.leadmanager.Controller;
+package com.bitspilani.leadmanager.Controller;
 
-import com.udaan.leadmanager.Dao.RestaurantCallDao;
-import com.udaan.leadmanager.model.Restaurant;
-import com.udaan.leadmanager.model.RestaurantContactCall;
+import com.bitspilani.leadmanager.Dao.RestaurantCallDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

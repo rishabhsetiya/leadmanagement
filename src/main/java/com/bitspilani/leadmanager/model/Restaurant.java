@@ -1,4 +1,4 @@
-package com.udaan.leadmanager.model;
+package com.bitspilani.leadmanager.model;
 
 public class Restaurant {
     private int id;

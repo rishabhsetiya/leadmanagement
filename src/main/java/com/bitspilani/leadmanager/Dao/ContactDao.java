@@ -1,7 +1,7 @@
-package com.udaan.leadmanager.Dao;
+package com.bitspilani.leadmanager.Dao;
 
-import com.udaan.leadmanager.model.Contact;
-import com.udaan.leadmanager.model.Role;
+import com.bitspilani.leadmanager.model.Contact;
+import com.bitspilani.leadmanager.model.Role;
 import org.springframework.stereotype.Repository;
 
 import java.sql.*;

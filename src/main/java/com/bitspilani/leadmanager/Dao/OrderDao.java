@@ -1,6 +1,6 @@
-package com.udaan.leadmanager.Dao;
+package com.bitspilani.leadmanager.Dao;
 
-import com.udaan.leadmanager.model.Order;
+import com.bitspilani.leadmanager.model.Order;
 import org.springframework.stereotype.Repository;
 
 import java.sql.*;

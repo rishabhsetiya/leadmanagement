@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.1</version>
+		<version>3.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.udaan</groupId>
+	<groupId>com.bitspilani</groupId>
 	<artifactId>leadmanager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>leadmanager</name>
-	<description>Key Account Manager for Udaan</description>
+	<description>Key Account Manager for My Restaurant</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -34,6 +34,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-starter-mcp-server-webmvc</artifactId>
+            <version>1.1.0-M4</version>
+        </dependency>
 
 		<dependency>
 			<groupId>com.h2database</groupId>

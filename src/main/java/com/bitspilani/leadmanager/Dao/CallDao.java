@@ -1,6 +1,6 @@
-package com.udaan.leadmanager.Dao;
+package com.bitspilani.leadmanager.Dao;
 
-import com.udaan.leadmanager.model.Call;
+import com.bitspilani.leadmanager.model.Call;
 import org.springframework.stereotype.Repository;
 
 import java.sql.*;

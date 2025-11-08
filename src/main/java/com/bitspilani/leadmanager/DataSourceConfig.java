@@ -1,4 +1,4 @@
-package com.udaan.leadmanager;
+package com.bitspilani.leadmanager;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

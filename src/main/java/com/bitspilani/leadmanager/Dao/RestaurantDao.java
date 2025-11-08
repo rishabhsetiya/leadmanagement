@@ -1,8 +1,8 @@
-package com.udaan.leadmanager.Dao;
+package com.bitspilani.leadmanager.Dao;
 
-import com.udaan.leadmanager.model.Frequency;
-import com.udaan.leadmanager.model.Restaurant;
-import com.udaan.leadmanager.model.Status;
+import com.bitspilani.leadmanager.model.Frequency;
+import com.bitspilani.leadmanager.model.Restaurant;
+import com.bitspilani.leadmanager.model.Status;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
