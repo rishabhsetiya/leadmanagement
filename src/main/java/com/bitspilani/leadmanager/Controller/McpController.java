@@ -16,7 +16,7 @@ public class McpController {
     private ContactDao contactDAO;
 
     @Tool
-    public Contact getEmployee(@PathVariable int contactId) {
+    public Contact getEmployee(int contactId) {
         try {
             return contactDAO.getContact(contactId);
         } catch (SQLException e) {
