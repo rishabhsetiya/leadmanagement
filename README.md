@@ -1,4 +1,4 @@
-# Udaan Assignment - Lead Management System
+# Lead Management System
 
 ### Project overview
 
